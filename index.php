@@ -17,7 +17,7 @@
 			</td>
 		</tr>
 	</table>
-	<?php
+	<!-- <?php
 			// mysqlへのアクセス
 			$mysqli = new mysqli("$hostname:$port","$username","$password", "$name");
 			// sql文の発行
@@ -34,6 +34,6 @@
 			result->close();
 			// 接続を閉じる
 			$mysqli->close();
-	?>
+	?> -->
 </body>
 </html>
