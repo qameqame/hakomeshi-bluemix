@@ -17,9 +17,10 @@
 			</td>
 		</tr>
 	</table>
-	<!-- <?php
+	<?php include 'db.php';?>
+	<?php
 			// mysqlへのアクセス
-			$mysqli = new mysqli("$hostname:$port","$username","$password", "$name");
+//			$mysqli = new mysqli("$hostname:$port","$username","$password", "$name");
 			// sql文の発行
 			$result = $mysqli->query("select * from test");
 			// 取得した行分繰り返し
@@ -34,6 +35,6 @@
 			result->close();
 			// 接続を閉じる
 			$mysqli->close();
-	?> -->
+	?>
 </body>
 </html>
